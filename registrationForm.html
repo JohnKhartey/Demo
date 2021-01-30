@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+</head>
+
+<body>
+
+    <form method="post" action="http://www.bluecrest.edu.gh"
+        style="width: fit-content;  margin: auto; padding:50px">
+
+        <h1 style="text-align: center">Registration Form</h1>
+
+        <br>
+        <br>
+
+
+        <!-- First name input-->
+
+        <p><label for="f_name">First name</label>
+            <input type="text" name="f_name" required="" id="f_name">
+        </p>
+
+
+        <p><label for="l_name">Last name</label>
+            <input type="text" name="lastname" id="l_name" required="">
+        </p>
+
+
+        <p><label for="email">Email</label>
+            <input type="email" name="email" id="email" required="">
+        </p>
+
+
+        <details>
+            <summary>Which college level are you?</summary>
+            <select>
+                <option>Freshman</option>
+                <option>Level200</option>
+                <option>Level300</option>
+                <option>Level400</option>
+            </select>
+        </details>
+        <br>
+        <br>
+
+        <!--        Register/Submit Button-->
+        <p style="text-align: center;">
+            <input type="submit" name="register" value="Register" style="background-color: #2fdb85">
+        </p>
+    </form>
+</body>
+</html>
